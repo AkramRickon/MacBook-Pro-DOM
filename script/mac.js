@@ -81,7 +81,7 @@ function finalTotal()
     cuponField.value='';
 }
 
-//handel  Memory selection events
+//handle  Memory selection events
 document.getElementById('memory-8GB').addEventListener('click',function(){
     updateExtraMemoryCost(false);
 })
@@ -92,7 +92,7 @@ document.getElementById('memory-16GB').addEventListener('click',function()
 })
 
 
-// handel storage selection events
+// handle storage selection events
 document.getElementById('ssd-256GB').addEventListener('click',function(){
     updateExtraStorageCost(256);
     
@@ -105,7 +105,7 @@ document.getElementById('ssd-1TB').addEventListener('click',function(){
     updateExtraStorageCost(1000);
 })
 
-// handel delivery selection events
+// handle delivery selection events
 document.getElementById('free-delivery').addEventListener('click',function(){
     updateDeliveryCharge(true);
 })
@@ -113,7 +113,7 @@ document.getElementById('premium-delivery').addEventListener('click',function(){
     updateDeliveryCharge(false);
 })
 
-// handel cupon events
+// handle cupon events
 document.getElementById('cupon-apply').addEventListener('click',function(){
     
     finalTotal();
